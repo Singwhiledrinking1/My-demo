@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark" tools:ignore="DuplicateDefinition">@color/Maincolor</item>
+        <item name="android:navigationBarColor">@color/Maincolor</item>
+
+
+    </style>
+
+    <style name="line">
+        <item name="android:layout_height">6dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/titlecolorh</item>
+        <item name="android:layout_margin">@dimen/maringSize</item>
+    </style>
+
+
+    <!--登陆按钮-->
+    <style name="Btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">#f0fefefe</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:layout_marginLeft">@dimen/maringSize</item>
+        <item name="android:layout_marginRight">@dimen/maringSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/commit_btn_n</item>
+
+    </style>
+
+
+    <style name="Btn1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">#f0fefefe</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:layout_marginLeft">@dimen/maringSize</item>
+        <item name="android:layout_marginRight">@dimen/maringSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/commit_btn_a</item>
+
+    </style>
+
+
+    <style name="l">
+
+        <item name="android:radius">@dimen/radius</item>
+
+    </style>
+
+>
+
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zhuye"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="368dp"
+        android:layout_height="142dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/hui"
+            app:srcCompat="@drawable/w22" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/hui"
+            app:srcCompat="@drawable/doupo" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/hui"
+            app:srcCompat="@drawable/android" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="117dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="    前端开发"
+        android:textColor="@color/titlecolorh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="117dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="    斗破苍穹"
+        android:textColor="@color/titlecolorh"
+        app:layout_constraintStart_toEndOf="@+id/textView70"
+        app:layout_constraintTop_toTopOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="117dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="    android开发"
+        android:textColor="@color/titlecolorh"
+        app:layout_constraintStart_toEndOf="@+id/textView71"
+        app:layout_constraintTop_toTopOf="@+id/textView71" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="4dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/Maincolor"
+        app:layout_constraintEnd_toStartOf="@+id/textView23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="优选图书"
+        android:textColor="@color/titlecolorh"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="117dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="    斗破苍穹"
+        android:textColor="@color/titlecolorh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="117dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="    android开发"
+        android:textColor="@color/titlecolorh"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="117dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="    web开发"
+        android:textColor="@color/titlecolorh"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="4dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/Maincolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView71"></View>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+
+        android:text="热度排行"
+        android:textColor="@color/titlecolorh"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="384dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24">
+
+        <ImageButton
+            android:id="@+id/imageButton40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/hui"
+            app:srcCompat="@drawable/doupo" />
+
+        <ImageButton
+            android:id="@+id/imageButton41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/hui"
+            app:srcCompat="@drawable/doupo" />
+
+        <ImageButton
+            android:id="@+id/imageButton42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/hui"
+            app:srcCompat="@drawable/android" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

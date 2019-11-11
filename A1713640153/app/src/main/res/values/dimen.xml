@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navbarheigen">56dp</dimen>
+    <dimen name="maringSize">16dp</dimen>
+    <dimen name="navbarTitleSize">22sp</dimen>
+    <dimen name="titleSize">18sp</dimen>
+    <dimen name="inputview">44dp</dimen>
+    <dimen name="radius">20dp</dimen>
+    <dimen name="ss">0</dimen>
+</resources>

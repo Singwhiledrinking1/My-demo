@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sdbi.a1713640153">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 声明摄像头权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.Camera" />
+    <uses-permission android:name="android.hardware.Camera.autofocus" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="V2cO1cUeppz7aPTYw4i72HQznsPWYF73" />
+
+        <receiver
+            android:name=".Myguangbo"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+
+        <provider
+            android:name=".MyDBProvider"
+            android:authorities="com.sdbi.a1713640153.mydbprovider"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".zhuye" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".music" />
+
+        <service
+            android:name=".MyService1"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".yuedu" />
+        <activity android:name=".chuanggan" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+
+            <!-- 创建新进程：com.sdbi.shiliuzhou.remote,在新进程中运行service组件 -->
+        </service>
+
+        <activity android:name=".dingwei" />
+        <activity android:name=".me"></activity>
+    </application>
+
+</manifest>

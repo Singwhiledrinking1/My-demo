@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shenhui"
+
+    tools:context=".Main3Activity"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginTop="51dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout6">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="请输入购买的数量:"
+            android:textColor="@color/hei"
+
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="113dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系电话："
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="170dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="166dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+
+        android:layout_marginTop="216dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详细地址："
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="289dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:textColor="@color/hei"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="45dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:text="用户名："
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="442dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="411dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买书籍:"
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/hei"
+            android:textSize="@dimen/titleSize"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="60dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="217dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Btn"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/maringSize"
+            android:text="查看我的位置"
+
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout10" />
+
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Btn"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/maringSize"
+            android:text="返回"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Btn"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/maringSize"
+
+            android:text="付款" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

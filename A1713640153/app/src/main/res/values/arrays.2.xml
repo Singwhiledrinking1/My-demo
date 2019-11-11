@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myarray2">
+        <item>莱山区</item>
+        <item>壶关县</item>
+        <item>北三环</item>
+        <item>南昌县</item>
+    </string-array>
+</resources>

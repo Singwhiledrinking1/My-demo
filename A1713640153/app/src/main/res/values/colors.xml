@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorred">#f0061e</color>
+    <color name="Maincolor">#d43433</color>
+    <color name="hui">#00e1caca</color>
+    <color name="bai">#fbfbfb</color>
+    <color name="hei">#040000</color>
+    <color name="shenhui">#c1bcbc</color>
+    <color name="titlecolorh">#de6464</color>
+</resources>

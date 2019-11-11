@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:background="@color/bai"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:backgroundTint="@color/Maincolor"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:fitsSystemWindows="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:background="#ebebeb"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#889DB0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtv_buttom1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#ff0000" />
+
+            <TextView
+                android:id="@+id/txtv_buttom2"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txtv_buttom3"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1"
+                android:background="#ff0000"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#dddadb"
+
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <RadioButton
+                android:id="@+id/radiobtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+
+                android:background="@null"
+                android:button="@null"
+
+                android:gravity="center_horizontal"
+                android:text="主页"
+                android:textColor="#e73443"
+                android:textSize="@dimen/titleSize" />
+
+            <RadioButton
+                android:id="@+id/radiobtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center_horizontal"
+                android:text="订单"
+                android:textColor="#da2335"
+                android:textSize="@dimen/titleSize" />
+
+            <RadioButton
+                android:id="@+id/radiobtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center_horizontal"
+                android:text="我的"
+                android:textColor="#de0d0d"
+                android:textSize="@dimen/titleSize" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

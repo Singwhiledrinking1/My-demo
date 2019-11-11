@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myarray1">
+        <item>烟台市</item>
+        <item>太原市</item>
+        <item>北京市</item>
+        <item>无锡市</item>
+    </string-array>
+</resources>
+

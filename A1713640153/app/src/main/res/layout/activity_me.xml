@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".me"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <View
+        android:id="@+id/view20"
+        style="@style/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout111"></View>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        style="@style/l"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/l2" />
+
+    <View
+        android:id="@+id/view5"
+        style="@style/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"></View>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="越努力越幸运"
+        android:textColor="#375c9d"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view5">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="19dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/o1" />
+
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hei"
+            android:layout_weight="1"
+            android:text="账户"
+            android:textSize="@dimen/titleSize" />
+
+        <Button
+            android:id="@+id/butto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:text="" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout111"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
+
+        <ImageView
+            android:id="@+id/imageVi0"
+            android:layout_width="19dp"
+            android:layout_height="match_parent"
+            android:background="@color/hui"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/o3" />
+
+        <TextView
+            android:id="@+id/textVi"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hei"
+            android:layout_weight="1"
+            android:text="笔记"
+            android:textSize="@dimen/titleSize" />
+
+        <Button
+            android:id="@+id/button111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view20">
+
+        <ImageView
+            android:id="@+id/imageView1111"
+            android:layout_width="19dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/o4" />
+
+        <TextView
+            android:id="@+id/tex"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hei"
+            android:layout_weight="1"
+            android:text="书单"
+            android:textSize="@dimen/titleSize" />
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="19dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/o5" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hei"
+            android:layout_weight="1"
+            android:text="vip卡"
+            android:textSize="@dimen/titleSize" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:text="" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

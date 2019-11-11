@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".music">
+
+
+    <!--光盘-->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/fl_play_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="271dp"
+            android:layout_height="245dp"
+            android:background="@color/bai"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="186dp"
+            android:layout_height="182dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/x21" />
+
+        <ImageView
+
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="473dp"
+
+
+            android:src="@drawable/disc"
+            app:layout_constraintStart_toStartOf="@+id/iv_play"
+            app:layout_constraintTop_toTopOf="@+id/iv_play" />
+        <!-- CircleImageView-->
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <!--指针-->
+    <ImageView
+        android:id="@+id/iv_needle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/needle"
+
+        app:layout_constraintStart_toStartOf="@+id/fl_play_music"
+        app:layout_constraintTop_toTopOf="@+id/fl_play_music" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="作者:"
+        android:textColor="@color/titlecolorh"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView31"
+        app:layout_constraintStart_toStartOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="16dp"
+        android:text="pgone"
+        android:textColor="@color/titlecolorh"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="24dp"
+        android:text="专辑:"
+        android:textColor="@color/titlecolorh"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView33"
+        app:layout_constraintEnd_toStartOf="@+id/textView33">
+
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="68dp"
+        android:text="万磁王"
+        android:textColor="@color/titlecolorh"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView31"></TextView>
+</android.support.constraint.ConstraintLayout>

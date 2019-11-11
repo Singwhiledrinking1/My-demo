@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myarray">
+        <item>山东省</item>
+        <item>山西省</item>
+        <item>北京</item>
+        <item>江苏</item>
+    </string-array>
+</resources>
+
